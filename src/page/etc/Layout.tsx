@@ -12,6 +12,7 @@ const Layout: React.FC = () => {
           <Link to="/lecture" className="nav-link">강의실</Link>
           <Link to="/chat" className="nav-link">채팅</Link>
           <Link to="/meeting" className="nav-link">1대1 미팅</Link>
+          <Link to="/screen-share" className="nav-link">화면 공유</Link>
         </nav>
       </header>
       <main>

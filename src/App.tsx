@@ -8,6 +8,7 @@ import NotFound from './page/etc/NotFound';
 import LecturePage from './page/LecturePage';
 import LectureRegisterPage from './page/LectureRegisterPage';
 import LectureViewPage from './page/LectureViewPage';
+import ScreenSharePage from './page/ScreenSharePage';
 import { LectureProvider } from './context/LectureContext';
 
 const App: React.FC = () => {
@@ -19,6 +20,7 @@ const App: React.FC = () => {
           <Route element={<Layout />}>
             <Route path="/roulette" element={<RoulettePage />} />
             <Route path="/zombie" element={<ZombieDefensePage />} />
+            <Route path="/meeting" element={<ScreenSharePage />} />
             
             {/* 강의 관련 라우트 */}
             <Route path="/lecture/:userName" element={<LecturePage />} />
