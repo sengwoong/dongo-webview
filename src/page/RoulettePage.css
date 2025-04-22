@@ -49,11 +49,11 @@
 
 body {
   font-family: 'Pretendard', 'Apple SD Gothic Neo', sans-serif;
-  background: #0080f1;
   margin: 0;
   padding: 0;
   min-height: 100vh;
   overflow-x: hidden;
+  background-color: #333;
 }
 
 .App {
@@ -635,3 +635,16 @@ h1 {
 .wheel-item:nth-child(6) .wheel-text { transform: translate(-50%, -50%) rotate(-270deg); }
 .wheel-item:nth-child(7) .wheel-text { transform: translate(-50%, -50%) rotate(-315deg); }
 .wheel-item:nth-child(8) .wheel-text { transform: translate(-50%, -50%) rotate(-360deg); }
+
+.roulette-page {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.roulette-page h1 {
+  margin-bottom: 16px;
+}
+
+.roulette-page p {
+  color: #666;
+}

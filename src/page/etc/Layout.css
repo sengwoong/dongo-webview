@@ -1,0 +1,60 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+}
+
+.main-header {
+  background-color: #121212;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.main-header nav {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  white-space: nowrap;
+  padding: 0 16px;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 15px 12px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+main {
+  flex: 1;
+  overflow-y: auto !important;
+  position: relative;
+  height: auto;
+  min-height: 100%;
+  display: block;
+}
+
+/* Tablet and Up */
+@media (min-width: 768px) {
+  .main-header nav {
+    justify-content: center;
+  }
+  
+  .nav-link {
+    padding: 18px 24px;
+    font-size: 1rem;
+  }
+} 

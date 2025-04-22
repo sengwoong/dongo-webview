@@ -479,3 +479,16 @@ body, html {
     font-size: 0.9rem;
   }
 }
+
+.zombie-defense-page {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.zombie-defense-page h1 {
+  margin-bottom: 16px;
+}
+
+.zombie-defense-page p {
+  color: #666;
+}
