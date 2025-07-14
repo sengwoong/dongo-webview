@@ -1,0 +1,155 @@
+.lecture-detail-register-container {
+  background-color: #f1fcec;
+  min-height: 100vh;
+  padding: 24px 0;
+  color: #222;
+}
+
+.lecture-detail-register-title {
+  color: #222;
+  font-size: 22px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.lecture-detail-register-card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 28px 24px;
+  max-width: 420px;
+  margin: 0 auto 24px auto;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  border: 1.5px solid #d0e6d7;
+  box-sizing: border-box;
+}
+
+.lecture-detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.lecture-detail-title {
+  font-size: 20px;
+  color: #222;
+  font-weight: bold;
+}
+
+.lecture-detail-plus-button {
+  width: 32px;
+  height: 32px;
+  background-color: #222;
+  color: #fff;
+  font-size: 22px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.lecture-detail-info {
+  display: flex;
+  flex-direction: row;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.lecture-detail-image {
+  width: 120px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  background: #e6e6e6;
+}
+
+.lecture-detail-desc {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lecture-detail-description {
+  font-size: 13px;
+  color: #444;
+  line-height: 1.5;
+  margin: 10px 0 8px 0;
+}
+
+.lecture-detail-price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+.lecture-detail-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.lecture-detail-cart-button {
+  flex: 1;
+  background-color: #ffd600;
+  border: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.lecture-detail-buy-button {
+  flex: 1;
+  background-color: #00e676;
+  border: none;
+  padding: 10px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.lecture-detail-section {
+  margin-top: 24px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.lecture-detail-section-title {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #222;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lecture-detail-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.lecture-detail-box {
+  background-color: #f8fff6;
+  border-radius: 10px;
+  padding: 14px 12px;
+  text-align: left;
+  color: #222;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  width: 100%;
+}
+
+.lecture-detail-date {
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 4px;
+}
+
+.lecture-detail-name {
+  font-size: 15px;
+  font-weight: bold;
+  color: #222;
+}

@@ -1,0 +1,145 @@
+.lecture-detail-container {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+  }
+  
+  .lecture-detail-title {
+    font-size: 16px;
+    color: #bfbfbf;
+    margin-bottom: 12px;
+  }
+  
+  .lecture-box {
+    background-color: #f1fcec;
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .lecture-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .lecture-video-placeholder {
+    background-color: black;
+    height: 200px;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-progress-container {
+    background-color: #f1fcec;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-progress-bar {
+    flex: 1;
+    height: 4px;
+    background-color: black;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .lecture-progress-fill {
+    height: 4px;
+    background-color: black;
+    width: 25%;
+    position: relative;
+  }
+  
+  .lecture-progress-dot {
+    width: 8px;
+    height: 8px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: -2px;
+    right: 0;
+  }
+  
+  .lecture-time {
+    font-size: 12px;
+    color: black;
+  }
+  
+  .lecture-chat-container {
+    background-color: #f1fcec;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .lecture-chat-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px;
+  }
+  
+  .lecture-invite-button {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .lecture-chat-box {
+    max-height: 180px;
+    overflow-y: auto;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .chat-bubble {
+    max-width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .chat-bubble.other {
+    background-color: #ddd;
+    color: black;
+    align-self: flex-start;
+  }
+  
+  .chat-bubble.me {
+    background-color: #eee;
+    color: black;
+    align-self: flex-end;
+  }
+  
+  .sender {
+    font-size: 10px;
+    margin-bottom: 4px;
+    color: gray;
+  }
+  
+  .text {
+    font-size: 14px;
+  }
+  
+  .lecture-chat-input {
+    background-color: #f1fcec;
+    border-radius: 0 0 8px 8px;
+    padding: 8px;
+  }
+  
+  .lecture-chat-input input {
+    width: 100%;
+    padding: 6px 12px;
+    border-radius: 12px;
+    border: none;
+  }
+  

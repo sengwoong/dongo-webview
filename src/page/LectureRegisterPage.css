@@ -1,0 +1,145 @@
+.student-lecture-detail-container {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+  }
+  
+  .page-title {
+    color: #84ccff;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-detail-card.fixed-width {
+    background-color: #f1fcec;
+    border-radius: 12px;
+    padding: 24px;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid #0ea5e9;
+  }
+  
+  .lecture-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-title {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .plus-button {
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .lecture-info {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .lecture-image-fixed {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .lecture-desc-fixed {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .lecture-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .lecture-description {
+    font-size: 12px;
+    margin: 8px 0;
+    color: black;
+    line-height: 1.4;
+  }
+  
+  .lecture-price {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+  }
+  
+  .lecture-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .cart-button {
+    flex: 1;
+    background-color: #ffd600;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button {
+    flex: 1;
+    background-color: #00e676;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .lecture-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .lecture-box {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .lecture-date {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+  

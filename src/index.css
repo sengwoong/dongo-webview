@@ -1,0 +1,118 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #121212;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+/* 전역 스크롤바 숨기기 설정 */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+
+/* Webkit 브라우저용 스크롤바 숨기기 */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  height: 100%;
+  overflow-y: auto !important;
+  background-color: #121212;
+}
+
+body {
+  margin: 0;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+  height: 100%;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  background-color: #121212;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#root {
+  height: 100%;
+  overflow-y: auto !important;
+  position: relative;
+  display: block;
+  background-color: #121212;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid #3a3a3a;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.25s;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  opacity: 1;
+}
+
+button:hover {
+  border-color: #646cff;
+  background-color: #3a3a3a;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+/* 파일 선택 버튼 스타일 */
+input[type="file"] {
+  opacity: 1;
+  position: relative;
+  padding: 8px;
+  background-color: #2a2a2a;
+  border-radius: 4px;
+  color: white;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  
+  a:hover {
+    color: #747bff;
+  }
+  
+  button {
+    background-color: #e0e0e0;
+    color: #333333;
+    border-color: #cccccc;
+  }
+  
+  button:hover {
+    background-color: #d0d0d0;
+  }
+  
+  input[type="file"] {
+    background-color: #e0e0e0;
+    color: #333333;
+  }
+}

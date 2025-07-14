@@ -1,0 +1,89 @@
+/* LectureRoom.css */
+.lecture-room-container {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 40px;
+    color: white;
+  }
+  
+  .lecture-room-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-room-card {
+    background-color: #f1fcec;
+    border-radius: 12px;
+    padding: 24px;
+    width: 360px;
+    margin: 0 auto;
+  }
+  
+  .lecture-room-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .lecture-room-subtitle {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .lecture-add-button {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .lecture-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .lecture-item {
+    background-color: white;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .lecture-date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 6px;
+  }
+  
+  .lecture-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+  }
+  
+  .pagination-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  

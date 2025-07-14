@@ -1,0 +1,118 @@
+/* FriendList.css */
+.friend-list-container {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 40px;
+    color: white;
+  }
+  
+  .friend-list-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .friend-list-card {
+    background-color: #f1fcec;
+    border-radius: 12px;
+    padding: 24px;
+    width: 360px;
+    margin: 0 auto;
+  }
+  
+  .friend-list-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .friend-list-subtitle {
+    font-size: 20px;
+    color: black;
+  }
+  
+  .friend-add-button {
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .friend-search-input {
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    color: black;
+  }
+  
+  .friend-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .friend-item {
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .friend-avatar {
+    width: 48px;
+    height: 48px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+    margin-right: 16px;
+  }
+  
+  .friend-info {
+    flex: 1;
+    color: black;
+  }
+  
+  .friend-role {
+    font-size: 10px;
+  }
+  
+  .friend-name {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .friend-remove-button {
+    font-size: 20px;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    gap: 8px;
+  }
+  
+  .pagination-button {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  
