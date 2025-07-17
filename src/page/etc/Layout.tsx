@@ -9,12 +9,11 @@ const Layout: React.FC = () => {
         <nav>
           <Link to="/roulette" className="nav-link">룰렛</Link>
           <Link to="/zombie" className="nav-link">좀비 디펜스</Link>
-          <Link to="/lecture" className="nav-link">강의실</Link>
-          <Link to="/lecture/register" className="nav-link">강좌판매</Link>
-          <Link to="/chat" className="nav-link">채팅</Link>
-          <Link to="/lecture/register/cart" className="nav-link">장바구니</Link>
+          <Link to="/course/register" className="nav-link">강좌판매</Link>
+          <Link to="/chat" className="nav-link">채팅방</Link>
+          <Link to="/course/register/cart" className="nav-link">장바구니</Link>
           <Link to="/friend" className="nav-link">친구</Link>
-          <Link to="/mylecture" className="nav-link">나의 강의</Link>
+          <Link to="/myCourse" className="nav-link">나의 강의</Link>
         </nav>
       </header>
       <main>

@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./FriendList.css";
+import { getFriendList } from "../api/friend";
+
+type Friend = {
+  id: number;
+  name: string;
+  role: string;
+  // 필요시 avatar 등 추가
+};
 
 export default function FriendList() {
   const navigate = useNavigate();
-  const friends = Array(8).fill({ name: "김진수", role: "student" });
+  const [friends, setFriends] = useState<Friend[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    getFriendList()
+      .then((data) => {
+        setFriends(data || []);
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, []);
+
+  if (loading) return <div>로딩 중...</div>;
+  if (friends.length === 0) return <div>친구가 없습니다.</div>;
 
   return (
     <div className="friend-list-container">
@@ -23,7 +44,7 @@ export default function FriendList() {
 
         <div className="friend-list">
           {friends.map((friend, index) => (
-            <div key={index} className="friend-item">
+            <div key={friend.id || index} className="friend-item">
               <div className="friend-avatar" />
               <div className="friend-info">
                 <div className="friend-role">{friend.role}</div>
@@ -32,16 +53,6 @@ export default function FriendList() {
               <button className="friend-remove-button">-</button>
             </div>
           ))}
-        </div>
-
-        <div className="pagination">
-          {Array(8)
-            .fill(null)
-            .map((_, index) => (
-              <button key={index} className="pagination-button">
-                {index + 1}
-              </button>
-            ))}
         </div>
       </div>
     </div>

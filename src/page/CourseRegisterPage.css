@@ -1,0 +1,338 @@
+.student-course-detail-container {
+    background-color: #1c1c1c;
+    min-height: 100vh;
+    padding: 20px;
+    color: white;
+  }
+  
+  .page-title {
+    color: #84ccff;
+    font-size: 18px;
+    margin-bottom: 16px;
+  }
+  
+  .course-detail-card.fixed-width {
+    background-color: #f1fcec;
+    border-radius: 12px;
+    padding: 24px;
+    width: 360px;
+    margin: 0 auto;
+    border: 2px solid #0ea5e9;
+  }
+  
+  .course-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .course-title {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .plus-button {
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .course-info {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+  }
+  
+  .course-image-fixed {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .course-desc-fixed {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .course-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .course-description {
+    font-size: 12px;
+    margin: 8px 0;
+    color: black;
+    line-height: 1.4;
+  }
+  
+  .course-price {
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 8px;
+  }
+  
+  .course-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .cart-button {
+    flex: 1;
+    background-color: #ffd600;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .buy-button {
+    flex: 1;
+    background-color: #00e676;
+    color: black;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .section-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .course-box {
+    background-color: white;
+    padding: 12px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .course-date {
+    font-size: 11px;
+    color: #666;
+    margin-bottom: 4px;
+  }
+
+
+.course-sale-title {
+  text-align: center;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #222;
+  margin: 32px 0 12px 0;
+  letter-spacing: -1px;
+}
+
+.course-sale-card.tall {
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 420px;
+}
+
+.course-image{
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.search-row {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  margin: 24px 0 18px 0;
+  padding-left: 10px;
+}
+.search-title {
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: #222;
+  letter-spacing: -1px;
+  margin: 0 10px 0 0;
+  min-width: 48px;
+  line-height: 1;
+}
+
+.course-sale-search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  gap: 0;
+}
+.course-sale-search input {
+  flex: 1;
+  padding: 8px 14px;
+  border-radius: 8px 0 0 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  background: #fff;
+  height: 38px;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  vertical-align: middle;
+}
+.course-sale-search button {
+  padding: 0 20px;
+  border-radius: 0 8px 8px 0;
+  background: #222;
+  color: #fff;
+  border: 1px solid #ccc;
+  border-left: none;
+  font-weight: bold;
+  font-size: 1rem;
+  height: 38px;
+  cursor: pointer;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  vertical-align: middle;
+}
+
+.course-banner {
+  display: block;
+  margin: 0 auto 32px auto;
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px 10px;
+  margin: 0 0 40px 0;
+}
+
+.course-box {
+  background: #fffbe7;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 16px 10px 14px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 170px;
+  position: relative;
+  transition: box-shadow 0.2s;
+}
+.course-box:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.13);
+}
+
+.course-box .course-title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 3px;
+  text-align: center;
+}
+.course-box .course-desc {
+  font-size: 0.92rem;
+  color: #444;
+  margin-bottom: 7px;
+  text-align: center;
+  line-height: 1.3;
+  min-height: 18px;
+  max-width: 95%;
+  white-space: nowrap;
+}
+.course-box .course-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #ff5a36;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.course-box .course-btn {
+  margin-top: 6px;
+  background: #1a7cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 0;
+  width: 100%;
+  font-size: 0.98rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.course-box .course-btn:hover {
+  background: #155bb5;
+}
+
+/* 페이지네이션 */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 36px 0 0 0;
+}
+.pagination button {
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  border: none;
+  background: #ededed;
+  color: #222;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, box-shadow 0.15s;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination button.active {
+  background: #fff;
+  color: #1563ff;
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(21,99,255,0.10);
+  border: 2px solid #1563ff;
+}
+.pagination button:hover:not(.active) {
+  background: #e0eaff;
+  color: #1563ff;
+}
+  

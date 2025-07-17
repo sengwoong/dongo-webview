@@ -12,13 +12,13 @@
     "server": "node server.js"
   },
   "dependencies": {
+    "http": "^0.0.1-security",
     "pixi.js": "^8.9.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.4.0",
     "socket.io-client": "^4.8.1",
-    "ws": "^8.16.0",
-    "http": "^0.0.1-security"
+    "ws": "^8.16.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

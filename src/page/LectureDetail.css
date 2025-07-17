@@ -73,7 +73,6 @@
   .lecture-chat-container {
     background-color: #f1fcec;
     border-radius: 8px;
-    overflow: hidden;
   }
   
   .lecture-chat-header {
@@ -95,7 +94,6 @@
   
   .lecture-chat-box {
     max-height: 180px;
-    overflow-y: auto;
     padding: 8px;
     display: flex;
     flex-direction: column;

@@ -1,16 +1,16 @@
-.mylecture-bg {
+.mycourse-bg {
   background: #f1fcec;
   min-height: 100vh;
   padding: 0;
 }
 
-.mylecture-container {
+.mycourse-container {
   max-width: 900px;
   margin: 0 auto;
   padding: 24px 0 0 0;
 }
 
-.mylecture-title {
+.mycourse-title {
   font-size: 1.6rem;
   font-weight: bold;
   margin-bottom: 18px;
@@ -18,7 +18,7 @@
   text-align: left;
 }
 
-.mylecture-banner {
+.mycourse-banner {
   width: 100%;
   max-width: 800px;
   display: block;
@@ -26,14 +26,14 @@
   border-radius: 12px;
 }
 
-.mylecture-list-grid {
+.mycourse-list-grid {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
-.mylecture-card {
+.mycourse-card {
   background: #b6d6f6;
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.07);
@@ -48,7 +48,7 @@
   align-items: flex-start;
 }
 
-.mylecture-badge {
+.mycourse-badge {
   background: #ff5e5e;
   color: #fff;
   font-size: 0.95rem;
@@ -59,7 +59,7 @@
   align-self: flex-end;
 }
 
-.mylecture-image {
+.mycourse-image {
   width: 90px;
   height: 110px;
   object-fit: cover;
@@ -69,7 +69,7 @@
   align-self: center;
 }
 
-.mylecture-info {
+.mycourse-info {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -78,14 +78,14 @@
   width: 100%;
 }
 
-.mylecture-course-title {
+.mycourse-course-title {
   font-size: 1.1rem;
   font-weight: bold;
   margin: 0 0 8px 0;
   color: #222;
 }
 
-.mylecture-description {
+.mycourse-description {
   font-size: 0.95rem;
   color: #222;
   margin: 0 0 10px 0;
@@ -93,7 +93,7 @@
   list-style: disc;
 }
 
-.mylecture-register-btn {
+.mycourse-register-btn {
   background: #1a3cff;
   color: #fff;
   border: none;
@@ -107,16 +107,16 @@
   transition: background 0.2s;
 }
 
-.mylecture-register-btn:hover {
+.mycourse-register-btn:hover {
   background: #0d2bb8;
 }
 
 @media (max-width: 800px) {
-  .mylecture-list-grid {
+  .mycourse-list-grid {
     flex-direction: column;
     gap: 18px;
   }
-  .mylecture-card {
+  .mycourse-card {
     max-width: 100%;
     min-width: 0;
   }
